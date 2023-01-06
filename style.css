@@ -1,0 +1,159 @@
+body{
+    margin:0px;
+    padding:0px;
+
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background-image: linear-gradient(to right, #c89181, #e47052, #421919);
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
+header{
+    
+    font-family: sans-serif;
+}
+.nav{
+ margin-top: 10px;
+ font-size: 20px;
+ display: flex;
+ justify-content: space-between;
+ font-weight: 600;
+ 
+}
+
+.nav ul{
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+    list-style-type: none;
+}
+
+.nav ul li{
+    margin-left: 100px;
+}
+ .nav ul li a:hover{
+     color:#421919;
+     text-decoration: underline;
+     transition: .5s;
+
+ }
+
+.nav ul li a{
+    text-decoration: none;
+    color:rgb(248, 242, 239);
+
+}
+
+.logo{
+
+    height: 60px;
+    width:60px;
+    margin-left: 50px;
+}
+
+
+.banner{
+    margin-top: 100px;
+    float: right;
+    margin-right: 50px;
+    
+}
+.banner-image{
+    height: 800px;
+    width: 800px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.banner-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.bannerinfo{
+    color:white;
+    width: 400px;
+    height: 600px;
+    margin-left: 200px;
+
+}
+
+.title{
+    font-size: 60px;
+
+}
+.orange{
+    color:#451b1a;
+}
+.name{
+    font-size: 60px;
+
+}
+.info-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-btn1{
+
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+    color:white;
+    background-color: #e47052;
+    margin-top: 30px;
+}
+.banner-btn2{
+
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    border:none;
+    margin-top: 30px;
+}
+
+
+.skills-section{
+    margin-top: 200px;
+    font-family: 'Nunito';
+
+}
+
+.skilltitle{
+    font-size: 50px;
+    color:rgb(75, 38, 25);
+    text-align: center;
+}
+
+.ends{
+    font-size: 50px;
+    color:rgb(75, 38, 25);
+    margin-left: 200px;
+}
+hr{
+    background-color: #e47052;
+}
+
+.skilllogo{
+    height: 50px;
+    width: 50px;
+}
+
+.skills{
+    display: flex;
+    color: #4b2323;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+.skillset p{
+    font-size: 20px;
+}
